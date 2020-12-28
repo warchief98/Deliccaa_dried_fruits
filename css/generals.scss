@@ -1,0 +1,35 @@
+@import "colors.scss";
+// _______________________________popular class in this project
+.bg-blur {
+    backdrop-filter: blur(5px);
+}
+
+.min-h110vh {
+    min-height: 110vh;
+}
+
+.min-h80vh {
+    min-height: 80vh;
+}
+
+.dark-block {
+    width: 100%;
+    height: 228px;
+    background-color: $bg-dark-brown;
+}
+
+// ________________________________main header classes
+.header {
+    position: fixed;
+}
+
+.head-logo-container {}
+
+// _________________________________background images
+.background-1 {
+    background: url('../img/bg1.jpg') no-repeat center center/cover;
+}
+
+.background-2 {
+    background: url('../img/bg2.jpg') no-repeat center center/cover;
+}
