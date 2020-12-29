@@ -2,6 +2,9 @@
   .fz-45 {
     font-size: 30px;
   }
+  .fz-30 {
+    font-size: 20px;
+  }
   .header {
     height: 90px;
   }
@@ -11,14 +14,17 @@
 }
 
 @media only screen and (min-width: 1600px) {
+  .fz-45 {
+    font-size: 45px;
+  }
+  .fz-30 {
+    font-size: 30px;
+  }
   .header {
     height: 142px;
   }
   .header .side-menu {
     height: calc(100vh - 142px);
-  }
-  .fz-45 {
-    font-size: 45px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
