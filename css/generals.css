@@ -1604,6 +1604,7 @@
 
 .background-1 {
   background: url("../img/bg1.jpg") no-repeat center center/cover;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

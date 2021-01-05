@@ -934,6 +934,7 @@
 // _________________________________background images
 .background-1 {
     background: url('../img/bg1.jpg') no-repeat center center/cover;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
