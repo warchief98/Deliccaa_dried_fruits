@@ -1,5 +1,6 @@
 @import "colors.scss";
 @import "responsive.scss";
+@import "reWork.scss";
 // _______________________________popular class in this project
 .bg-blur {
     backdrop-filter: blur(5px);
@@ -819,6 +820,7 @@
     }
 }
 
+// 12
 //cmp
 .address-box {
     background: $bg-dark-brown;
@@ -987,7 +989,7 @@
     .news-main-block {
         .side-white-para {
             position: absolute;
-            top: 0;
+            top: 15px;
             // left: 0;
             // transform: translateY(-50%);
             &::after {
