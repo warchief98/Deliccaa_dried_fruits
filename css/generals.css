@@ -2109,7 +2109,7 @@
 
 .news-wrapper .news-main-block .side-white-para {
   position: absolute;
-  top: 15px;
+  top: 0;
 }
 
 .news-wrapper .news-main-block .side-white-para::after {
