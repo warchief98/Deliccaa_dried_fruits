@@ -1,407 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <!-- bootstrap v4.3.1 import -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
 
     <!-- generals css import -->
-    <link rel="stylesheet" href="css/generals.css">
-
+    <link rel="stylesheet" href="css/generals.css" />
 
     <!-- jquery import -->
     <script src="js/jquery.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="header bg-blur container-fluid">
-            <div class="w-100">
-                <div class="row">
-                    <div class="col-2 col-lg-3 col-xl-5">
-                        <figure class="head-logo-container">
-                            <img src="img/mainLogo.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-10 col-lg-9 col-xl-7 d-flex justify-content-end justify-content-lg-between align-items-center">
-                        <div class="d-none d-md-block w-100">
-                            <ul class="main-nav">
-                                <li>
-                                    About us
-                                    <a href="about.html"></a>
-                                </li>
-                                <span class="green-dash"></span>
-                                <li>
-                                    Business Activities
-                                    <a href="#"></a>
-                                </li>
-                                <span class="green-dash"></span>
-                                <li>
-                                    Our News
-                                    <a href="news&events.html"></a>
-                                </li>
-                                <span class="green-dash"></span>
-                                <li>
-                                    INFO
-                                    <a href="info.html"></a>
-                                </li>
-                                <span class="green-dash"></span>
-                                <li>
-                                    CONTACT
-                                    <a href="contact.html"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="home-btn">
-                            <img src="img/home-btn-icon.png" alt="">
-                            <span>Home</span>
-                            <a href="index.html"></a>
-                        </button>
-                        <figure id="navBtn">
-                            <img src="img/menu-btn-icon.png" alt="">
-                        </figure>
-                    </div>
-                </div>
+      <div class="header bg-blur container-fluid">
+        <div class="w-100">
+          <div class="row" style="flex-direction: row-reverse">
+            <div class="col-2 col-lg-3 col-xl-5 d-flex justify-content-end">
+              <figure class="head-logo-container">
+                <img src="img/mainLogo.png" alt="" />
+              </figure>
             </div>
+            <div
+              class="col-10 col-lg-9 col-xl-7 d-flex justify-content-end justify-content-lg-between align-items-center"
+              style="flex-direction: row-reverse"
+            >
+              <div class="d-none d-md-block w-100">
+                <ul class="main-nav">
+                  <li>
+                    Products
+                    <a href="Product.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
 
-            <div id="side-menu">
-                <header class="container-fluid">
-                    <figure class="menu-logo">
-                        <img src="img/menu-logo.png" alt="">
-                    </figure>
-                    <figure id="backBtn">
-                        <img src="img/right-arrow.png" alt="">
-                    </figure>
-                </header>
-
-                <section>
-                    <ul>
-                        <li>Home <span class="menu-line"></span></li>
-                        <li>Contact <span class="menu-line"></span></li>
-                        <li>Info <span class="menu-line"></span></li>
-                        <li>Our News <span class="menu-line"></span></li>
-                        <li>Business Activities <span class="menu-line"></span></li>
-                        <li>About us <span class="menu-line"></span></li>
-                        <li>
-                            <div class="lang-img">
-                                <img src="img/eng-icon.png" alt="">
-                                <span>ENG</span>
-                            </div>
-                            Change language
-                            <span class="menu-line"></span>
-                        </li>
-                    </ul>
-                </section>
-
-                <footer>
-                    <p class="text-white-op-30">We create possibilities for the connected world. </p>
-                    <p class="text-white">Be Bold.</p>
-                </footer>
-            </div>
-        </div>
-
-        <div class="main-section">
-            <div class="bg-blur2"></div>
-            <div class="news-wrapper">
-
-                <div class="news-main-block">
-                    <div class="side-white-para">
-                        <p>OUR NEWS &</p>
-                        <p>EVENTS</p>
-                    </div>
-                    <figure class="news-out-pic">
-                        <img src="img/news-pic.jpg" alt="">
-                    </figure>
-                    <div class="news-content">
-                        <div class="event-card">
-                            <div class="d-flex flex-column">
-                                <p class="event-title">Moscow exhibition:</p>
-                                <p class="event-explain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi! Voluptates veritatis sequi accusamus iure tempora quasi aspernatur neque aliquid ea deleniti sunt, molestias eveniet dolore natus minima vitae non.</p>
-                                <p class="event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, quos.</p>
-                                <ul class="event-list">
-                                    <li> ipsum dolor sit amet.</li>
-                                    <li>Lorem dolor amet.</li>
-                                    <li>Lorem ipsum dolor amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit .</li>
-                                </ul>
-                                <button class="base-btn base-btn-gray align-self-center align-self-md-start">More</button>
-                            </div>
-                            <figure class="event-pic">
-                                <img src="img/news-pic.jpg" alt="">
-                            </figure>
-                        </div>
-
-                        <div class="event-card">
-                            <div class="d-flex flex-column">
-                                <p class="event-title">Moscow exhibition:</p>
-                                <p class="event-explain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi! Voluptates veritatis sequi accusamus iure tempora quasi aspernatur neque aliquid ea deleniti sunt, molestias eveniet dolore natus minima vitae non.</p>
-                                <p class="event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, quos.</p>
-                                <ul class="event-list">
-                                    <li> ipsum dolor sit amet.</li>
-                                    <li>Lorem dolor amet.</li>
-                                    <li>Lorem ipsum dolor amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit .</li>
-                                </ul>
-                                <button class="base-btn base-btn-gray align-self-center align-self-md-start">More</button>
-                            </div>
-                            <figure class="event-pic">
-                                <img src="img/news-pic.jpg" alt="">
-                            </figure>
-                        </div>
-
-                        <div class="event-card">
-                            <div class="d-flex flex-column">
-                                <p class="event-title">Moscow exhibition:</p>
-                                <p class="event-explain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi! Voluptates veritatis sequi accusamus iure tempora quasi aspernatur neque aliquid ea deleniti sunt, molestias eveniet dolore natus minima vitae non.</p>
-                                <p class="event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, quos.</p>
-                                <ul class="event-list">
-                                    <li> ipsum dolor sit amet.</li>
-                                    <li>Lorem dolor amet.</li>
-                                    <li>Lorem ipsum dolor amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit .</li>
-                                </ul>
-                                <button class="base-btn base-btn-gray align-self-center align-self-md-start">More</button>
-                            </div>
-                            <figure class="event-pic">
-                                <img src="img/news-pic.jpg" alt="">
-                            </figure>
-                        </div>
-
-                        <div class="event-card">
-                            <div class="d-flex flex-column">
-                                <p class="event-title">Moscow exhibition:</p>
-                                <p class="event-explain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi! Voluptates veritatis sequi accusamus iure tempora quasi aspernatur neque aliquid ea deleniti sunt, molestias eveniet dolore natus minima vitae non.</p>
-                                <p class="event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, quos.</p>
-                                <ul class="event-list">
-                                    <li> ipsum dolor sit amet.</li>
-                                    <li>Lorem dolor amet.</li>
-                                    <li>Lorem ipsum dolor amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit .</li>
-                                </ul>
-                                <button class="base-btn base-btn-gray align-self-center align-self-md-start">More</button>
-                            </div>
-                            <figure class="event-pic">
-                                <img src="img/news-pic.jpg" alt="">
-                            </figure>
-                        </div>
-
-                        <div class="event-card">
-                            <div class="d-flex flex-column">
-                                <p class="event-title">Moscow exhibition:</p>
-                                <p class="event-explain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi! Voluptates veritatis sequi accusamus iure tempora quasi aspernatur neque aliquid ea deleniti sunt, molestias eveniet dolore natus minima vitae non.</p>
-                                <p class="event-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, quos.</p>
-                                <ul class="event-list">
-                                    <li> ipsum dolor sit amet.</li>
-                                    <li>Lorem dolor amet.</li>
-                                    <li>Lorem ipsum dolor amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit .</li>
-                                </ul>
-                                <button class="base-btn base-btn-gray align-self-center align-self-md-start">More</button>
-                            </div>
-                            <figure class="event-pic">
-                                <img src="img/news-pic.jpg" alt="">
-                            </figure>
-                        </div>
-
-                        <!-- slider -->
-                        <div class="small-slider-container">
-                            <figure class="slider-btn leftBtn">
-                                <img src="img/left-nav-icon.png" alt="">
-                            </figure>
-                            <figure class="slider-btn rightBtn">
-                                <img src="img/right-nav-icon.png" alt="">
-                            </figure>
-                            <div class="small-slider">
-                                <div class="roll">
-                                    <div class="slide">
-                                        <!-- cmp -->
-                                        <figure class="slider-card">
-                                            <img src="img/try-now-pic.jpg" alt="">
-                                            <div>
-                                                <button class="base-btn base-btn-gray">Pussachi</button>
-                                            </div>
-                                        </figure>
-                                    </div>
-
-                                    <div class="slide">
-                                        <!-- cmp -->
-                                        <figure class="slider-card">
-                                            <img src="img/try-now-pic.jpg" alt="">
-                                            <div>
-                                                <button class="base-btn base-btn-gray">Pussachi</button>
-                                            </div>
-                                        </figure>
-                                    </div>
-
-                                    <div class="slide">
-                                        <!-- cmp -->
-                                        <figure class="slider-card">
-                                            <img src="img/try-now-pic.jpg" alt="">
-                                            <div>
-                                                <button class="base-btn base-btn-gray">Pussachi</button>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                    <div class="slide">
-                                        <!-- cmp -->
-                                        <figure class="slider-card">
-                                            <img src="img/try-now-pic.jpg" alt="">
-                                            <div>
-                                                <button class="base-btn base-btn-gray">Pussachi</button>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                    <div class="slide">
-                                        <!-- cmp -->
-                                        <figure class="slider-card">
-                                            <img src="img/try-now-pic.jpg" alt="">
-                                            <div>
-                                                <button class="base-btn base-btn-gray">Pussachi</button>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                    <div class="slide">
-                                        <!-- cmp -->
-                                        <figure class="slider-card">
-                                            <img src="img/try-now-pic.jpg" alt="">
-                                            <div>
-                                                <button class="base-btn base-btn-gray">Pussachi</button>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                    <div class="slide">
-                                        <!-- cmp -->
-                                        <figure class="slider-card">
-                                            <img src="img/try-now-pic.jpg" alt="">
-                                            <div>
-                                                <button class="base-btn base-btn-gray">Pussachi</button>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                    <div class="slide">
-                                        <!-- cmp -->
-                                        <figure class="slider-card">
-                                            <img src="img/try-now-pic.jpg" alt="">
-                                            <div>
-                                                <button class="base-btn base-btn-gray">Pussachi</button>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer">
-            <header class="container container-ex">
-                <ul class="social-icon-container">
-                    <li class="mx-2 mx-xl-4"><img src="img/linkedin-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/skype-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/Facebook-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/instagram-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/twitter-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/youtupe-icon.png" alt=""></li>
+                  <li>
+                    About us
+                    <a href="about.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
+                  <li>
+                    Business Activities
+                    <a href="business.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
+                  <li>
+                    Our News
+                    <a href="news&events.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
+                  <li>
+                    INFO
+                    <a href="info.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
+                  <li>
+                    CONTACT
+                    <a href="contact.html"></a>
+                  </li>
                 </ul>
-            </header>
-
-            <section class="container container-ex mt-3 mt-xl-4">
-                <div class="row">
-                    <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="top">
-                            <img src="img/logo-footer.png" alt="">
-                        </div>
-                        <div class="bot">
-                            <div>
-                                We create possibilities for the connected world. Be Bold.
-                            </div>
-                            <div>
-                                <figure>
-                                    <img src="img/cell-phone-icon.png" alt="">
-                                </figure>
-                                : +98 413 55 77739
-                            </div>
-                            <div>
-                                <figure>
-                                    <img src="img/gmail-sign-icon.png" alt="">
-                                </figure>
-                                : Sadermc@outlook.com
-                            </div>
-                            <div>
-                                <figure></figure>
-                                :Sales@sadermc.com
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="top">
-                            <h3>About us</h3>
-                        </div>
-                        <div class="bot">
-                            <div>
-                                Main business activities of “Pooya Payam Saderat Co.” as a holding group company
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="top">
-                            <h3>Explore</h3>
-                        </div>
-                        <div class="bot">
-                            <div>
-                                <a href="#">About us</a>
-                            </div>
-
-                            <div>
-                                <a href="#">Business Activities</a>
-                            </div>
-
-                            <div>
-                                <a href="#">Our News</a>
-                            </div>
-
-                            <div>
-                                <a href="#">Info</a>
-                            </div>
-                            <div>
-                                <a href="#">Contact</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="top">
-                            <h3>Visit</h3>
-                        </div>
-                        <div class="bot">
-                            <div>
-                                3rd Floor, No.20, Saba Bld., Pastor-e Jadid St., Tabriz, East Azerbaijan, Iran, 5138873416
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <footer class="container container-ex">
-                <p class="pl-4">© 2020 Deliccaa. All Rights Reserved.</p>
-            </footer>
+              </div>
+              <button class="home-btn">
+                <img src="img/home-btn-icon.png" alt="" />
+                <span>Home</span>
+                <a href="index.html"></a>
+              </button>
+              <figure id="navBtn">
+                <img src="img/menu-btn-icon.png" alt="" />
+              </figure>
+            </div>
+          </div>
         </div>
+
+        <div id="side-menu">
+          <header class="container-fluid">
+            <figure class="menu-logo">
+              <img src="img/menu-logo.png" alt="" />
+            </figure>
+            <figure id="backBtn" style="transform: rotate(180deg)">
+              <img src="img/right-arrow.png" alt="" />
+            </figure>
+          </header>
+
+          <section>
+            <ul>
+              <li>
+                <a href="/index.html">Home </a><span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/product.html">Products</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/contact.html">Contact</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/info.html">Info</a> <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/news&events.html">Our News</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/business.html">Business Activities</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/about.html">About us</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <div class="lang-img">
+                  <img src="img/eng-icon.png" alt="" />
+                  <span>ENG</span>
+                </div>
+                Change language
+                <span class="menu-line"></span>
+              </li>
+            </ul>
+          </section>
+
+          <footer>
+            <p class="text-white-op-30">
+              We create possibilities for the connected world.
+            </p>
+            <p class="text-white">Be Bold.</p>
+          </footer>
+        </div>
+      </div>
+
+      <div class="main-section">
+        <div class="bg-blur2"></div>
+        <div class="news-wrapper">
+          <div class="news-main-block">
+            <div class="side-white-para">
+              <p>OUR NEWS &</p>
+              <p>EVENTS</p>
+            </div>
+            <figure class="news-out-pic">
+              <img src="img/news-pic.jpg" alt="" />
+            </figure>
+            <div class="news-content">
+              <div class="event-card">
+                <div class="d-flex flex-column">
+                  <p class="event-title">Moscow exhibition:</p>
+                  <p class="event-explain">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iusto, excepturi! Voluptates veritatis sequi accusamus iure
+                    tempora quasi aspernatur neque aliquid ea deleniti sunt,
+                    molestias eveniet dolore natus minima vitae non.
+                  </p>
+                  <p class="event-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Accusantium, quos.
+                  </p>
+                  <ul class="event-list">
+                    <li>ipsum dolor sit amet.</li>
+                    <li>Lorem dolor amet.</li>
+                    <li>Lorem ipsum dolor amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit .</li>
+                  </ul>
+                  <button
+                    class="base-btn base-btn-gray align-self-center align-self-md-start"
+                  >
+                    More
+                  </button>
+                </div>
+                <figure class="event-pic">
+                  <img src="img/news-pic.jpg" alt="" />
+                </figure>
+              </div>
+
+              <div class="event-card">
+                <div class="d-flex flex-column">
+                  <p class="event-title">Moscow exhibition:</p>
+                  <p class="event-explain">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iusto, excepturi! Voluptates veritatis sequi accusamus iure
+                    tempora quasi aspernatur neque aliquid ea deleniti sunt,
+                    molestias eveniet dolore natus minima vitae non.
+                  </p>
+                  <p class="event-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Accusantium, quos.
+                  </p>
+                  <ul class="event-list">
+                    <li>ipsum dolor sit amet.</li>
+                    <li>Lorem dolor amet.</li>
+                    <li>Lorem ipsum dolor amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit .</li>
+                  </ul>
+                  <button
+                    class="base-btn base-btn-gray align-self-center align-self-md-start"
+                  >
+                    More
+                  </button>
+                </div>
+                <figure class="event-pic">
+                  <img src="img/news-pic.jpg" alt="" />
+                </figure>
+              </div>
+
+              <div class="event-card">
+                <div class="d-flex flex-column">
+                  <p class="event-title">Moscow exhibition:</p>
+                  <p class="event-explain">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iusto, excepturi! Voluptates veritatis sequi accusamus iure
+                    tempora quasi aspernatur neque aliquid ea deleniti sunt,
+                    molestias eveniet dolore natus minima vitae non.
+                  </p>
+                  <p class="event-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Accusantium, quos.
+                  </p>
+                  <ul class="event-list">
+                    <li>ipsum dolor sit amet.</li>
+                    <li>Lorem dolor amet.</li>
+                    <li>Lorem ipsum dolor amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit .</li>
+                  </ul>
+                  <button
+                    class="base-btn base-btn-gray align-self-center align-self-md-start"
+                  >
+                    More
+                  </button>
+                </div>
+                <figure class="event-pic">
+                  <img src="img/news-pic.jpg" alt="" />
+                </figure>
+              </div>
+
+              <div class="event-card">
+                <div class="d-flex flex-column">
+                  <p class="event-title">Moscow exhibition:</p>
+                  <p class="event-explain">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iusto, excepturi! Voluptates veritatis sequi accusamus iure
+                    tempora quasi aspernatur neque aliquid ea deleniti sunt,
+                    molestias eveniet dolore natus minima vitae non.
+                  </p>
+                  <p class="event-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Accusantium, quos.
+                  </p>
+                  <ul class="event-list">
+                    <li>ipsum dolor sit amet.</li>
+                    <li>Lorem dolor amet.</li>
+                    <li>Lorem ipsum dolor amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit .</li>
+                  </ul>
+                  <button
+                    class="base-btn base-btn-gray align-self-center align-self-md-start"
+                  >
+                    More
+                  </button>
+                </div>
+                <figure class="event-pic">
+                  <img src="img/news-pic.jpg" alt="" />
+                </figure>
+              </div>
+
+              <div class="event-card">
+                <div class="d-flex flex-column">
+                  <p class="event-title">Moscow exhibition:</p>
+                  <p class="event-explain">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iusto, excepturi! Voluptates veritatis sequi accusamus iure
+                    tempora quasi aspernatur neque aliquid ea deleniti sunt,
+                    molestias eveniet dolore natus minima vitae non.
+                  </p>
+                  <p class="event-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Accusantium, quos.
+                  </p>
+                  <ul class="event-list">
+                    <li>ipsum dolor sit amet.</li>
+                    <li>Lorem dolor amet.</li>
+                    <li>Lorem ipsum dolor amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit .</li>
+                  </ul>
+                  <button
+                    class="base-btn base-btn-gray align-self-center align-self-md-start"
+                  >
+                    More
+                  </button>
+                </div>
+                <figure class="event-pic">
+                  <img src="img/news-pic.jpg" alt="" />
+                </figure>
+              </div>
+
+              <!-- slider -->
+              <div class="small-slider-container">
+                <figure class="slider-btn leftBtn">
+                  <img src="img/left-nav-icon.png" alt="" />
+                </figure>
+                <figure class="slider-btn rightBtn">
+                  <img src="img/right-nav-icon.png" alt="" />
+                </figure>
+                <div class="small-slider">
+                  <div class="roll">
+                    <div class="slide">
+                      <!-- cmp -->
+                      <figure class="slider-card">
+                        <img src="img/try-now-pic.jpg" alt="" />
+                        <div>
+                          <button class="base-btn base-btn-gray">
+                            Pussachi
+                          </button>
+                        </div>
+                      </figure>
+                    </div>
+
+                    <div class="slide">
+                      <!-- cmp -->
+                      <figure class="slider-card">
+                        <img src="img/try-now-pic.jpg" alt="" />
+                        <div>
+                          <button class="base-btn base-btn-gray">
+                            Pussachi
+                          </button>
+                        </div>
+                      </figure>
+                    </div>
+
+                    <div class="slide">
+                      <!-- cmp -->
+                      <figure class="slider-card">
+                        <img src="img/try-now-pic.jpg" alt="" />
+                        <div>
+                          <button class="base-btn base-btn-gray">
+                            Pussachi
+                          </button>
+                        </div>
+                      </figure>
+                    </div>
+                    <div class="slide">
+                      <!-- cmp -->
+                      <figure class="slider-card">
+                        <img src="img/try-now-pic.jpg" alt="" />
+                        <div>
+                          <button class="base-btn base-btn-gray">
+                            Pussachi
+                          </button>
+                        </div>
+                      </figure>
+                    </div>
+                    <div class="slide">
+                      <!-- cmp -->
+                      <figure class="slider-card">
+                        <img src="img/try-now-pic.jpg" alt="" />
+                        <div>
+                          <button class="base-btn base-btn-gray">
+                            Pussachi
+                          </button>
+                        </div>
+                      </figure>
+                    </div>
+                    <div class="slide">
+                      <!-- cmp -->
+                      <figure class="slider-card">
+                        <img src="img/try-now-pic.jpg" alt="" />
+                        <div>
+                          <button class="base-btn base-btn-gray">
+                            Pussachi
+                          </button>
+                        </div>
+                      </figure>
+                    </div>
+                    <div class="slide">
+                      <!-- cmp -->
+                      <figure class="slider-card">
+                        <img src="img/try-now-pic.jpg" alt="" />
+                        <div>
+                          <button class="base-btn base-btn-gray">
+                            Pussachi
+                          </button>
+                        </div>
+                      </figure>
+                    </div>
+                    <div class="slide">
+                      <!-- cmp -->
+                      <figure class="slider-card">
+                        <img src="img/try-now-pic.jpg" alt="" />
+                        <div>
+                          <button class="base-btn base-btn-gray">
+                            Pussachi
+                          </button>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <header class="container container-ex">
+          <ul class="social-icon-container">
+            <li class="mx-2 mx-xl-4">
+              <img src="img/linkedin-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/skype-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/Facebook-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/instagram-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/twitter-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/youtupe-icon.png" alt="" />
+            </li>
+          </ul>
+        </header>
+
+        <section class="container container-ex mt-3 mt-xl-4">
+          <div class="row">
+            <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="top">
+                <img src="img/logo-footer.png" alt="" />
+              </div>
+              <div class="bot">
+                <div>
+                  We create possibilities for the connected world. Be Bold.
+                </div>
+                <div>
+                  <figure>
+                    <img src="img/cell-phone-icon.png" alt="" />
+                  </figure>
+                  : +98 413 55 77739
+                </div>
+                <div>
+                  <figure>
+                    <img src="img/gmail-sign-icon.png" alt="" />
+                  </figure>
+                  : Sadermc@outlook.com
+                </div>
+                <div>
+                  <figure></figure>
+                  :Sales@sadermc.com
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="top">
+                <h3>About us</h3>
+              </div>
+              <div class="bot">
+                <div>
+                  Main business activities of “Pooya Payam Saderat Co.” as a
+                  holding group company
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="top">
+                <h3>Explore</h3>
+              </div>
+              <div class="bot">
+                <div>
+                  <a href="#">About us</a>
+                </div>
+
+                <div>
+                  <a href="#">Business Activities</a>
+                </div>
+
+                <div>
+                  <a href="#">Our News</a>
+                </div>
+
+                <div>
+                  <a href="#">Info</a>
+                </div>
+                <div>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="top">
+                <h3>Visit</h3>
+              </div>
+              <div class="bot">
+                <div>
+                  3rd Floor, No.20, Saba Bld., Pastor-e Jadid St., Tabriz, East
+                  Azerbaijan, Iran, 5138873416
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="container container-ex">
+          <p class="pl-4">© 2020 Deliccaa. All Rights Reserved.</p>
+        </footer>
+      </div>
     </div>
 
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

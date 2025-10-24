@@ -1,267 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <!-- bootstrap v4.3.1 import -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
 
     <!-- generals css import -->
-    <link rel="stylesheet" href="css/generals.css">
+    <link rel="stylesheet" href="css/generals.css" />
 
     <!-- jquery import -->
     <script src="js/jquery.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="header bg-blur container-fluid">
-            <div class="w-100">
-                <div class="row">
-                    <div class="col-2 col-lg-3 col-xl-5">
-                        <figure class="head-logo-container">
-                            <img src="img/mainLogo.png" alt="">
-                        </figure>
-                    </div>
-                    <div class="col-10 col-lg-9 col-xl-7 d-flex justify-content-end justify-content-lg-between align-items-center">
-                        <div class="d-none d-md-block w-100">
-                            <ul class="main-nav">
-                                <li>
-                                    About us
-                                    <a href="about.html"></a>
-                                </li>
-                                <span class="green-dash"></span>
-                                <li>
-                                    Business Activities
-                                    <a href="#"></a>
-                                </li>
-                                <span class="green-dash"></span>
-                                <li>
-                                    Our News
-                                    <a href="news&events.html"></a>
-                                </li>
-                                <span class="green-dash"></span>
-                                <li>
-                                    INFO
-                                    <a href="info.html"></a>
-                                </li>
-                                <span class="green-dash"></span>
-                                <li>
-                                    CONTACT
-                                    <a href="contact.html"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="home-btn">
-                            <img src="img/home-btn-icon.png" alt="">
-                            <span>Home</span>
-                            <a href="index.html"></a>
-                        </button>
-                        <figure id="navBtn">
-                            <img src="img/menu-btn-icon.png" alt="">
-                        </figure>
-                    </div>
-                </div>
+      <div class="header bg-blur container-fluid">
+        <div class="w-100">
+          <div class="row" style="flex-direction: row-reverse">
+            <div class="col-2 col-lg-3 col-xl-5 d-flex justify-content-end">
+              <figure class="head-logo-container">
+                <img src="img/mainLogo.png" alt="" />
+              </figure>
             </div>
+            <div
+              class="col-10 col-lg-9 col-xl-7 d-flex justify-content-end justify-content-lg-between align-items-center"
+              style="flex-direction: row-reverse"
+            >
+              <div class="d-none d-md-block w-100">
+                <ul class="main-nav">
+                  <li>
+                    Products
+                    <a href="Product.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
 
-            <div id="side-menu">
-                <header class="container-fluid">
-                    <figure class="menu-logo">
-                        <img src="img/menu-logo.png" alt="">
-                    </figure>
-                    <figure id="backBtn">
-                        <img src="img/right-arrow.png" alt="">
-                    </figure>
-                </header>
-
-                <section>
-                    <ul>
-                        <li>Home <span class="menu-line"></span></li>
-                        <li>Contact <span class="menu-line"></span></li>
-                        <li>Info <span class="menu-line"></span></li>
-                        <li>Our News <span class="menu-line"></span></li>
-                        <li>Business Activities <span class="menu-line"></span></li>
-                        <li>About us <span class="menu-line"></span></li>
-                        <li>
-                            <div class="lang-img">
-                                <img src="img/eng-icon.png" alt="">
-                                <span>ENG</span>
-                            </div>
-                            Change language
-                            <span class="menu-line"></span>
-                        </li>
-                    </ul>
-                </section>
-
-                <footer>
-                    <p class="text-white-op-30">We create possibilities for the connected world. </p>
-                    <p class="text-white">Be Bold.</p>
-                </footer>
-            </div>
-        </div>
-
-        <div class="main-section">
-            <div class="min-h110vh background-1">
-                <div class="big-text">
-                    <h3>DELICIOUS</h3>
-                </div>
-                <div class="side-green-para container-fluid">
-                    <p class="text-white-op-50">We create possibilities for the connected world. </p>
-                    <p class="text-white">Be Bold.</p>
-                </div>
-            </div>
-
-            <!-- ______ -->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-6 address-box">
-                        <ul>
-                            <li class="text-white">
-                                <div class="d-flex align-items-center">
-                                    <span class="menu-line-1"></span> Office
-                                </div>
-                            </li>
-                            <li>
-                                <p class="text-white-op-50 location">
-                                    3rd Floor, No.20, SAba Bld., Pastor-e Jadid St., Tabriz, East Azerbaijan, Iran, 5138872416
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 map-box d-none d-md-block">
-                    </div>
-                </div>
-            </div>
-
-            <div class="gallery">
-                <div class="container container-ex">
-                    <div class="row gallery-container">
-                        <div class="gallery-wrapper pr-0">
-                            <figure class="img-box-1">
-                                <img src="img/bg1.jpg" alt="">
-                            </figure>
-                            <figure class="img-box-2">
-                                <img src="img/2.jpg" alt="">
-
-                            </figure>
-                        </div>
-                        <div class="gallery-wrapper">
-                            <button class="btn-style">DRIED FRUITS</button>
-                            <figure class="img-box-3">
-                                <img src="img/bg1.jpg" alt="">
-                            </figure>
-                        </div>
-                        <div class="container container-ex">
-                            <figure class="img-box-4">
-                                <img src="img/2.jpg" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- _____ -->
-        </div>
-
-        <div class="footer">
-            <header class="container container-ex">
-                <ul class="social-icon-container">
-                    <li class="mx-2 mx-xl-4"><img src="img/linkedin-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/skype-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/Facebook-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/instagram-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/twitter-icon.png" alt=""></li>
-                    <li class="mx-2 mx-xl-4"><img src="img/youtupe-icon.png" alt=""></li>
+                  <li>
+                    About us
+                    <a href="about.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
+                  <li>
+                    Business Activities
+                    <a href="business.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
+                  <li>
+                    Our News
+                    <a href="news&events.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
+                  <li>
+                    INFO
+                    <a href="info.html"></a>
+                  </li>
+                  <span class="green-dash"></span>
+                  <li>
+                    CONTACT
+                    <a href="contact.html"></a>
+                  </li>
                 </ul>
-            </header>
-
-            <section class="container container-ex mt-3 mt-xl-4">
-                <div class="row">
-                    <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="top">
-                            <img src="img/logo-footer.png" alt="">
-                        </div>
-                        <div class="bot">
-                            <div>
-                                We create possibilities for the connected world. Be Bold.
-                            </div>
-                            <div>
-                                <figure>
-                                    <img src="img/cell-phone-icon.png" alt="">
-                                </figure>
-                                : +98 413 55 77739
-                            </div>
-                            <div>
-                                <figure>
-                                    <img src="img/gmail-sign-icon.png" alt="">
-                                </figure>
-                                : Sadermc@outlook.com
-                            </div>
-                            <div>
-                                <figure></figure>
-                                :Sales@sadermc.com
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="top">
-                            <h3>About us</h3>
-                        </div>
-                        <div class="bot">
-                            <div>
-                                Main business activities of “Pooya Payam Saderat Co.” as a holding group company
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="top">
-                            <h3>Explore</h3>
-                        </div>
-                        <div class="bot">
-                            <div>
-                                <a href="#">About us</a>
-                            </div>
-
-                            <div>
-                                <a href="#">Business Activities</a>
-                            </div>
-
-                            <div>
-                                <a href="#">Our News</a>
-                            </div>
-
-                            <div>
-                                <a href="#">Info</a>
-                            </div>
-                            <div>
-                                <a href="#">Contact</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="top">
-                            <h3>Visit</h3>
-                        </div>
-                        <div class="bot">
-                            <div>
-                                3rd Floor, No.20, Saba Bld., Pastor-e Jadid St., Tabriz, East Azerbaijan, Iran, 5138873416
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <footer class="container container-ex">
-                <p class="pl-4">© 2020 Deliccaa. All Rights Reserved.</p>
-            </footer>
+              </div>
+              <button class="home-btn">
+                <img src="img/home-btn-icon.png" alt="" />
+                <span>Home</span>
+                <a href="index.html"></a>
+              </button>
+              <figure id="navBtn">
+                <img src="img/menu-btn-icon.png" alt="" />
+              </figure>
+            </div>
+          </div>
         </div>
+
+        <div id="side-menu">
+          <header class="container-fluid">
+            <figure class="menu-logo">
+              <img src="img/menu-logo.png" alt="" />
+            </figure>
+            <figure id="backBtn" style="transform: rotate(180deg)">
+              <img src="img/right-arrow.png" alt="" />
+            </figure>
+          </header>
+
+          <section>
+            <ul>
+              <li>
+                <a href="/index.html">Home </a><span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/product.html">Products</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/contact.html">Contact</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/info.html">Info</a> <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/news&events.html">Our News</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/business.html">Business Activities</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <a href="/about.html">About us</a>
+                <span class="menu-line"></span>
+              </li>
+              <li>
+                <div class="lang-img">
+                  <img src="img/eng-icon.png" alt="" />
+                  <span>ENG</span>
+                </div>
+                Change language
+                <span class="menu-line"></span>
+              </li>
+            </ul>
+          </section>
+
+          <footer>
+            <p class="text-white-op-30">
+              We create possibilities for the connected world.
+            </p>
+            <p class="text-white">Be Bold.</p>
+          </footer>
+        </div>
+      </div>
+
+      <div class="main-section">
+        <div class="min-h110vh background-1">
+          <div class="big-text">
+            <h3>DELICIOUS</h3>
+          </div>
+          <div class="side-green-para container-fluid">
+            <p class="text-white-op-50">
+              We create possibilities for the connected world.
+            </p>
+            <p class="text-white">Be Bold.</p>
+          </div>
+        </div>
+
+        <!-- ______ -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-6 address-box">
+              <ul>
+                <li class="text-white">
+                  <div class="d-flex align-items-center">
+                    <span class="menu-line-1"></span> Office
+                  </div>
+                </li>
+                <li>
+                  <p class="text-white-op-50 location">
+                    3rd Floor, No.20, SAba Bld., Pastor-e Jadid St., Tabriz,
+                    East Azerbaijan, Iran, 5138872416
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 map-box d-none d-md-block"></div>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <div class="container container-ex">
+            <div class="row gallery-container">
+              <div class="gallery-wrapper pr-0">
+                <figure class="img-box-1">
+                  <img src="img/bg1.jpg" alt="" />
+                </figure>
+                <figure class="img-box-2">
+                  <img src="img/2.jpg" alt="" />
+                </figure>
+              </div>
+              <div class="gallery-wrapper">
+                <button class="btn-style">DRIED FRUITS</button>
+                <figure class="img-box-3">
+                  <img src="img/bg1.jpg" alt="" />
+                </figure>
+              </div>
+              <div class="container container-ex">
+                <figure class="img-box-4">
+                  <img src="img/2.jpg" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- _____ -->
+      </div>
+
+      <div class="footer">
+        <header class="container container-ex">
+          <ul class="social-icon-container">
+            <li class="mx-2 mx-xl-4">
+              <img src="img/linkedin-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/skype-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/Facebook-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/instagram-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/twitter-icon.png" alt="" />
+            </li>
+            <li class="mx-2 mx-xl-4">
+              <img src="img/youtupe-icon.png" alt="" />
+            </li>
+          </ul>
+        </header>
+
+        <section class="container container-ex mt-3 mt-xl-4">
+          <div class="row">
+            <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="top">
+                <img src="img/logo-footer.png" alt="" />
+              </div>
+              <div class="bot">
+                <div>
+                  We create possibilities for the connected world. Be Bold.
+                </div>
+                <div>
+                  <figure>
+                    <img src="img/cell-phone-icon.png" alt="" />
+                  </figure>
+                  : +1 (310) 555-2478
+                </div>
+                <div>
+                  <figure>
+                    <img src="img/gmail-sign-icon.png" alt="" />
+                  </figure>
+                  : winterfell@outlook.com
+                </div>
+                <div>
+                  <figure></figure>
+                  :Sales@sadermc.com
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="top">
+                <h3>About us</h3>
+              </div>
+              <div class="bot">
+                <div>
+                  Main business activities of “John Snow winterfell Co.” as a
+                  holding group company
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="top">
+                <h3>Explore</h3>
+              </div>
+              <div class="bot">
+                <div>
+                  <a href="#">About us</a>
+                </div>
+
+                <div>
+                  <a href="#">Business Activities</a>
+                </div>
+
+                <div>
+                  <a href="#">Our News</a>
+                </div>
+
+                <div>
+                  <a href="#">Info</a>
+                </div>
+                <div>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-box col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="top">
+                <h3>Visit</h3>
+              </div>
+              <div class="bot">
+                <div>
+                  3rd Floor, No. 120, Greenview Plaza, 8458 Sunset Blvd., Los
+                  Angeles, California, USA, 90069
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="container container-ex">
+          <p class="pl-4">© 2020 Deliccaa. All Rights Reserved.</p>
+        </footer>
+      </div>
     </div>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
