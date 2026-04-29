@@ -50,8 +50,14 @@
     height: 32px;
   }
   .small-slider-container {
-    width: calc(100% - 50px);
+    width: 100%;
     margin: auto;
+  }
+  .small-slider-container .leftBtn {
+    right: 95%;
+  }
+  .small-slider-container .rightBtn {
+    left: 95%;
   }
   .small-slider-container .small-slider .roll .slide {
     width: 30vw;
@@ -124,6 +130,12 @@
   .event-card .event-pic {
     width: 50%;
     align-self: flex-end;
+  }
+  .small-slider-container .leftBtn {
+    right: 100%;
+  }
+  .small-slider-container .rightBtn {
+    left: 100%;
   }
   .small-slider-container .small-slider .roll .slide {
     width: 15vw;
@@ -393,8 +405,14 @@
     height: 32px;
   }
   .small-slider-container {
-    width: calc(100% - 50px);
+    width: 100%;
     margin: auto;
+  }
+  .small-slider-container .leftBtn {
+    right: 95%;
+  }
+  .small-slider-container .rightBtn {
+    left: 95%;
   }
   .small-slider-container .small-slider .roll .slide {
     width: 30vw;
@@ -467,6 +485,12 @@
   .event-card .event-pic {
     width: 50%;
     align-self: flex-end;
+  }
+  .small-slider-container .leftBtn {
+    right: 100%;
+  }
+  .small-slider-container .rightBtn {
+    left: 100%;
   }
   .small-slider-container .small-slider .roll .slide {
     width: 15vw;
@@ -1482,16 +1506,12 @@
   overflow: hidden;
   position: absolute;
   top: 50%;
+  z-index: 100;
+  cursor: pointer;
   transform: translateY(-50%);
 }
 .small-slider-container .slider-btn img {
   width: 100%;
-}
-.small-slider-container .leftBtn {
-  right: 100%;
-}
-.small-slider-container .rightBtn {
-  left: 100%;
 }
 .small-slider-container .small-slider {
   height: 100%;
@@ -1510,6 +1530,9 @@
   height: 100%;
   max-width: 105px;
   float: left;
+}
+.small-slider-container .small-slider .roll .slide:first-child {
+  margin-left: 0;
 }
 
 .slider-card {
@@ -1564,10 +1587,15 @@
 }
 .address-box ul li figure {
   display: inline-block;
-  width: 25px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 .address-box ul li figure img {
   filter: brightness(1);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .address-box ul li:first-child {
   margin: 0;

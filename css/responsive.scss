@@ -53,8 +53,14 @@
     height: 32px;
   }
   .small-slider-container {
-    width: calc(100% - 50px);
+    width: 100%;
     margin: auto;
+    .leftBtn {
+      right: 95%;
+    }
+    .rightBtn {
+      left: 95%;
+    }
     .small-slider {
       .roll {
         .slide {
@@ -141,6 +147,12 @@
     }
   }
   .small-slider-container {
+    .leftBtn {
+      right: 100%;
+    }
+    .rightBtn {
+      left: 100%;
+    }
     .small-slider {
       .roll {
         .slide {

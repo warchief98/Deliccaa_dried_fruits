@@ -50,8 +50,14 @@
     height: 32px;
   }
   .small-slider-container {
-    width: calc(100% - 50px);
+    width: 100%;
     margin: auto;
+  }
+  .small-slider-container .leftBtn {
+    right: 95%;
+  }
+  .small-slider-container .rightBtn {
+    left: 95%;
   }
   .small-slider-container .small-slider .roll .slide {
     width: 30vw;
@@ -124,6 +130,12 @@
   .event-card .event-pic {
     width: 50%;
     align-self: flex-end;
+  }
+  .small-slider-container .leftBtn {
+    right: 100%;
+  }
+  .small-slider-container .rightBtn {
+    left: 100%;
   }
   .small-slider-container .small-slider .roll .slide {
     width: 15vw;
